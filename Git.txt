@@ -1,0 +1,50 @@
+To send (i.e., upload or push) multiple files from your local system to a GitHub repository like https://github.com/arunima21/Biomedical_Data_Application_Data_Analysis, follow these step-by-step instructions.
+
+
+You must have Git installed on your system.
+
+You must have access (write permission) to the GitHub repository.
+
+You must have the files ready on your local machine.
+
+🖥️ Step 1: Open Terminal or Git Bash
+Open a terminal (Linux/macOS) or Git Bash (Windows).
+
+📁 Step 2: Navigate to Your Project Directory
+cd /path/to/your/local/project
+If the directory doesn't exist yet, you can create it and navigate into it:
+
+mkdir Biomedical_Data_Application_Data_Analysis
+cd Biomedical_Data_Application_Data_Analysis
+🐙 Step 3: Initialize Git Repository (if not already initialized)
+git init
+🔗 Step 4: Add the Remote GitHub Repository
+git remote add origin https://github.com/arunima21/Biomedical_Data_Application_Data_Analysis.git
+
+git remote -v
+📂 Step 5: Add Files to the Repository
+git add .
+This stages all files in the current directory.
+You can also use git add filename1 filename2 to add specific files only.
+
+📝 Step 6: Commit the Changes
+
+git commit -m "Add multiple files to the repository"
+📤 Step 7: Push to GitHub
+git push -u origin main
+
+git push -u origin master
+✅ You're Done!
+Your files are now pushed to GitHub. You can verify by visiting:
+https://github.com/arunima21/Biomedical_Data_Application_Data_Analysis
+
+Small- Steps 
+git clone https://github.com/arunima21/Biomedical_Data_Application_Data_Analysis.git
+cd Biomedical_Data_Application_Data_Analysis
+git add .
+git commit -m "Add multiple files"
+git push
+
+
+
+

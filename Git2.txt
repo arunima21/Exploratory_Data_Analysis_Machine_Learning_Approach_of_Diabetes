@@ -1,0 +1,29 @@
+C:\Users\aruni\ML> git branch
+* main
+
+C:\Users\aruni\ML> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\aruni\ML> git add .
+
+C:\Users\aruni\ML> git commit -m "Initial commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\aruni\ML> git branch -m master
+
+C:\Users\aruni\ML> git push -u origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/arunima21/ML/pull/new/master
+remote:
+To https://github.com/arunima21/ML.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
